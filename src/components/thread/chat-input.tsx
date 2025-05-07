@@ -431,7 +431,7 @@ export const ChatInput = forwardRef<ChatInputHandles, ChatInputProps>(({
         </div>
 
         <div className="flex items-center gap-2 pl-2 flex-shrink-0">
-          {/* {!isAgentRunning && (
+          {!isAgentRunning && (
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger asChild>
@@ -476,7 +476,7 @@ export const ChatInput = forwardRef<ChatInputHandles, ChatInputProps>(({
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
-          )} */}
+          )}
 
           {!hideAttachments && (
             <TooltipProvider>
